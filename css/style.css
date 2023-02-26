@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 .class_one {
 	flex-wrap: wrap;
@@ -10,32 +15,13 @@
 }
 
 .body {
-	background: linear-gradient(149deg, rgb(24, 187, 157) 0%, rgb(106, 0, 255) 42%, rgb(187, 24, 149) 72%, rgb(115, 53, 134) 100%);
-	flex-wrap: wrap;
-	border-style: double;
-	padding: 20px 20px 20px 20px;
-}
-
-.body {
 	background: linear-gradient(rgb(8, 4, 46), pink);
 	height: 150vh;
 }
 
-.user-avatar {
-	width: 200px;
-	height: 200px;
-	background-color: black;
-	margin: 30px;
-	border-radius: 500px;
-	padding: 10px 10px 10px 10px
-}
-
 .main-container {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 100vh;
-	flex-flow: column wrap;
+	flex-direction: column;
 	animation: gradient 10s ease infinite;
 }
 
@@ -43,11 +29,7 @@
 	box-shadow: 5px 6px 4px black;
 }
 
-.main-container {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100vh;
-}
+
 
 .title {
 	font-size: 35px;
@@ -83,9 +65,37 @@
 
 .main-container .user-info-block {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(25px);
+	padding: 20px;
+	margin: 25px;
+}
+.main-container .user-info-block.avatar-and-name {
 
 }
+
+.main-container .user-info-block.avatar-and-name {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.main-container .user-info-block .user-avatar {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	border-radius: 100%;
+	margin-right: 20px;
+}
+
+.main-container .user-info-block h1 {
+	font-size: 40px;
+	white-space: nowrap;
+}
+
+
 
 .user-info-block {
 
