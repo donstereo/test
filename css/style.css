@@ -14,27 +14,44 @@
 	/*animation: myAnimation 10s ease infinite;*/
 }
 
-.body {
+body {
+	font-family: Montserrat-Regular-400, sans-serif;
 	background: linear-gradient(rgb(8, 4, 46), pink);
-	height: 150vh;
+	min-height: 100vh;
 }
 
 .main-container {
 	display: flex;
 	flex-direction: column;
 	animation: gradient 10s ease infinite;
+	max-width: 1200px;
+	margin: 50px auto;
+	position: relative;
 }
 
-.colon {
-	box-shadow: 5px 6px 4px black;
+.main-container .top-side, .main-container .bottom-side {
+	position: relative;
+	z-index: 1;
 }
 
+.main-container .background {
+	position: absolute;
+	top: 70px;
+	left: 170px;
+	z-index: 2;
+	transform: rotate(90deg);
+}
 
+.main-container .background img {
+	width: 1200px;
+}
 
-.title {
-	font-size: 35px;
-	font-family: 'Times New Roman', Times, sans-serif;
-	padding-top: 20px;
+.main-container .bottom-side {
+	display: flex;
+}
+
+.main-container .bottom-side .right-side {
+	flex: 1;
 }
 
 .right-container {
@@ -72,20 +89,43 @@
 	padding: 20px;
 	margin: 25px;
 }
-.main-container .user-info-block.avatar-and-name {
-
-}
 
 .main-container .user-info-block.avatar-and-name {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: space-between;
+}
+
+.main-container .user-info-block .title {
+	font-size: 20px;
+	font-family: Montserrat-Bold-700, sans-serif;
+	margin-bottom: 20px;
+}
+
+.main-container .user-info-block ul {
+	padding-left: 20px;
+}
+
+.main-container .user-info-block ul li {
+	margin-bottom: 10px;
+}
+
+.main-container .user-info-block ul li .user-data-row {
+	display: flex;
+}
+
+.main-container .user-info-block ul li .user-data-row p:nth-child(1) {
+	min-width: 150px;
+	font-family: Montserrat-Medium-500, sans-serif;
+	font-size: 16px;
+	margin-right: 10px;
 }
 
 .main-container .user-info-block .user-avatar {
-	width: 200px;
-	height: 200px;
-	background-color: black;
+	width: 100px;
+	height: 100px;
+	background: black;
 	border-radius: 100%;
 	margin-right: 20px;
 }
@@ -99,4 +139,25 @@
 
 .user-info-block {
 
+}
+
+
+@font-face {
+	font-family: "Montserrat-Bold-700";
+	src: url('../assets/fonts/Montserrat-Bold-700.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "Montserrat-Medium-500";
+	src: url('../assets/fonts/Montserrat-Medium-500.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "Montserrat-Regular-400";
+	src: url('../assets/fonts/Montserrat-Regular-400.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: "Montserrat-Light-300";
+	src: url('../assets/fonts/Montserrat-Light-300.ttf') format("truetype");
 }
