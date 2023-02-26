@@ -82,6 +82,8 @@
 
 
 .main-container .user-info-block {
+    display: flex;
+    flex-direction: row;
 
 }
 
