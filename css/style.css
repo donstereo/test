@@ -2,6 +2,7 @@
 .class_one {
 flex-wrap: wrap;
 font-size: 40px;
+<<<<<<< Updated upstream
 ;
 border-radius: 20px 20px 20px 20px;
 background: rgba(255, 255, 255, 0.5);
@@ -13,6 +14,25 @@ animation-name: myAnimation 10s ease infinite;
 }
 .body {background: linear-gradient(149deg, rgb(24, 187, 157) 0%, rgb(106, 0, 255) 42%, rgb(187, 24, 149) 72%, rgb(115, 53, 134) 100%);
    flex-wrap: wrap;
+=======
+border-style:double;
+padding: 20px 20px 20px 20px;
+ 
+}
+.body {background: linear-gradient(rgb(8, 4, 46), pink) ;
+    height: 150vh;}
+.imgtitle {
+    width: 200px;
+height: 200px;
+background-color: black;
+margin: 30px;
+border-radius: 500px;
+padding: 10px 10px 10px 10px
+}
+.colon {background-color: 
+    ;}
+.main-conteiner {
+>>>>>>> Stashed changes
     display: flex;
 	align-items: center;
 	justify-content: center;
@@ -65,6 +85,7 @@ animation-name: myAnimation;
 {
     
     width: 800px;
+<<<<<<< Updated upstream
     display:flex ;
     justify-content:center ;
     font-size: 40px;
@@ -103,3 +124,8 @@ animation-direction: alternate;
 
 
 class_one  {flex-wrap: wrap;}
+=======
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+}
+>>>>>>> Stashed changes
