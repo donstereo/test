@@ -1,131 +1,90 @@
 
 .class_one {
-flex-wrap: wrap;
-font-size: 40px;
-<<<<<<< Updated upstream
-;
-border-radius: 20px 20px 20px 20px;
-background: rgba(255, 255, 255, 0.5);
-backdrop-filter: blur 30%;
-padding: 0px 20px 20px 20px;
-animation-name: myAnimation 10s ease infinite;
+	flex-wrap: wrap;
+	font-size: 40px;
+	border-radius: 20px 20px 20px 20px;
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(25px);
+	padding: 0 20px 20px 20px;
+	/*animation: myAnimation 10s ease infinite;*/
+}
 
- 
+.body {
+	background: linear-gradient(149deg, rgb(24, 187, 157) 0%, rgb(106, 0, 255) 42%, rgb(187, 24, 149) 72%, rgb(115, 53, 134) 100%);
+	flex-wrap: wrap;
+	border-style: double;
+	padding: 20px 20px 20px 20px;
 }
-.body {background: linear-gradient(149deg, rgb(24, 187, 157) 0%, rgb(106, 0, 255) 42%, rgb(187, 24, 149) 72%, rgb(115, 53, 134) 100%);
-   flex-wrap: wrap;
-=======
-border-style:double;
-padding: 20px 20px 20px 20px;
- 
+
+.body {
+	background: linear-gradient(rgb(8, 4, 46), pink);
+	height: 150vh;
 }
-.body {background: linear-gradient(rgb(8, 4, 46), pink) ;
-    height: 150vh;}
-.imgtitle {
-    width: 200px;
-height: 200px;
-background-color: black;
-margin: 30px;
-border-radius: 500px;
-padding: 10px 10px 10px 10px
+
+.user-avatar {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	margin: 30px;
+	border-radius: 500px;
+	padding: 10px 10px 10px 10px
 }
-.colon {background-color: 
-    ;}
-.main-conteiner {
->>>>>>> Stashed changes
-    display: flex;
+
+.main-container {
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-    flex-flow: column wrap; 
-    
+	flex-flow: column wrap;
 	animation: gradient 10s ease infinite;
-    
-   
 }
 
-
-
-.imgtitle 
-{
-width: 150px;
-height:150px;
-background-color: rgb(255, 255, 255);
-border-radius: 100%;
-padding: 5px;
-filter: drop-shadow(5px 6px 4px rgba(255, 255, 255, 0.781));
-animation-name: myAnimation;
+.colon {
+	box-shadow: 5px 6px 4px black;
 }
 
-
-
-.colon {filter: drop-shadow (5px 6px 4px black) 
-    ;}
-
-
-
-
-.main-conteiner 
-{
-    display: flex;
-    flex-wrap:wrap
-    width: 100vh;
-   
-    
-    
-}
-.title
-{
-    font-size: 35px;
-	font-family:'Times New Roman', Times, sans-serif;
-    padding-top: 20px;
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vh;
 }
 
-.right-conteiner
-{
-    
-    width: 800px;
-<<<<<<< Updated upstream
-    display:flex ;
-    justify-content:center ;
-    font-size: 40px;
-    border-radius: 20px 20px 20px 20px;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur 30%;
-    padding: 0px 20px 20px 20px;
-    margin-top: 30px;
-    height:100vh;
+.title {
+	font-size: 35px;
+	font-family: 'Times New Roman', Times, sans-serif;
+	padding-top: 20px;
 }
 
-
+.right-container {
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	border-radius: 20px 20px 20px 20px;
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(25px);
+	padding: 0 20px 20px 20px;
+	margin-top: 30px;
+	height: 100vh;
+}
 
 @keyframes myAnimation {
-    from{background-color: aqua;
-    }
-     50% {background-color: brown;
-        transform: scale(1.2)
-    };
-
-    to 
-    {
-        background-color: blueviolet;
-    }
-
-
-    
-    
+	0% {background-color: aqua;
+	}
+	50% {
+		background-color: brown;
+		transform: scale(1.2)
+	}
+	100% {
+		background-color: blueviolet;
+	}
 }
-.div-class 
-animation-name: myAnimation ;
-animation-duration: 5s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-animation-direction: alternate;
 
 
-class_one  {flex-wrap: wrap;}
-=======
-    margin: 0 auto;
-    padding: 20px 20px 20px 20px;
+.main-container .user-info-block {
+
 }
->>>>>>> Stashed changes
+
+.user-info-block {
+
+}
