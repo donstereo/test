@@ -13,3 +13,10 @@ ____
 * ## Language
 * * ___English (A2)___ 
 * * ___Russian Pre-Intermediate___
+____
+____
+* ## Skills
+* *___html___
+* *___Git,Github___
+* *___VS code___
+* *___cv___
