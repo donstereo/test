@@ -9,3 +9,7 @@ ___
 * ## Education :
 * ### secondary vocational education
 ____
+____
+* ## Language
+* * ___English (A2)___ 
+* * ___Russian Pre-Intermediate___
